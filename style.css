@@ -1,0 +1,26 @@
+body
+{
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h3
+{
+    font-size: 30px !important;
+}
+
+.btn-success:hover
+{
+    background-color: rgb(177, 240, 53);
+}
+
+canvas {
+    animation-name: CoLoR;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes CoLoR {
+    from{box-shadow: 20px 20px 160px green}
+    to {box-shadow: 20px 20px 160px blue}
+}
